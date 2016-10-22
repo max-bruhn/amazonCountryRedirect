@@ -10,7 +10,7 @@ $.getJSON("http://ip-api.com/json/?callback=?", function(data) {
     } else if ($.inArray(cc, ["BE", "EE", "IE", "EL", "HR", "CY", "LV", "LT", "MT", "RO", "FI", "SE", "UK"]) > -1) {
       return 'co.uk';
     } else if ($.inArray(cc, ["JP"]) > -1) {
-      return 'JP';
+      return 'co.jp';
     } else if ($.inArray(cc, ["FR", "IT", "CA"]) > -1) {
       return cc.toLowerCase();
     } else {
