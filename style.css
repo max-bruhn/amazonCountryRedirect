@@ -1,0 +1,62 @@
+/* Body */
+
+body {
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Button */
+
+#amazon-icon {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#buy-button {
+  border: solid black 1px;
+  border-radius: 3px;
+  padding: 0;
+  margin: 11px auto 5px auto;
+  width: 100%;
+  max-width: 120px;
+  display: block;
+  //box-sizing: border-box;
+  height: 29px;
+  cursor: pointer;
+  background-color: #F1CE77;
+    //text-decoration: none!important;
+}
+
+#inner-button {
+  position: relative;
+  //height: 100%;
+  //overflow: hidden;
+  display: block;
+  //text-align: center;
+}
+
+#buy-now-text {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 0 0 0 27px;
+  line-height: 29px;
+}
+
+#buy-button:hover {
+  background-color: #F0C456;
+}
+
+#button-link {
+  text-decoration: none;
+}
